@@ -6,7 +6,22 @@
 	<title>v-chart</title>
     <style media="screen">
 		body {
-			
+			text-align: center;
+		}
+		body img {
+			animation-name: logo;
+			animation-duration: 5s;
+			animation-timing-function: ease;
+			animation-iteration-count: infinite;
+		}
+		@keyframes logo {
+			0% {
+				transform: rotateY(0deg);
+			}
+
+			100% {
+				transform: rotateY(360deg);
+			}
 		}
 	</style>
 </head>
